@@ -14,3 +14,4 @@ test('should render the blog card with title, subtitle, author and text', () => 
   const title = screen.getByText('Test title');
   expect(title).toBeVisible();
 });
+// testing ci
